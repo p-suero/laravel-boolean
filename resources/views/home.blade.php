@@ -71,7 +71,7 @@
                 </div>
             </div>
         </section>
-        <section id="partner">
+        <section id="partners">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

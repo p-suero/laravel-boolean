@@ -16189,15 +16189,15 @@ header .navbar-light .navbar-nav li:hover {
   font-weight: 300;
 }
 
-#partner h4 {
+#partners h4 {
   color: #8e8e8e;
   font-weight: 400;
   font-size: 19px;
 }
-#partner img {
+#partners img {
   max-width: 250px;
 }
-#partner .line-img {
+#partners .line-img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -16267,6 +16267,18 @@ footer #footer-bottom p {
   #jumbotron img {
     width: 100%;
     margin-top: 50px;
+  }
+
+  #results h3 {
+    font-size: 35px;
+  }
+
+  #partners {
+    padding: 20px 0;
+  }
+  #partners .line-img {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   footer #footer-top .container {
