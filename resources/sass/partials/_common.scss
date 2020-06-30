@@ -10,12 +10,15 @@ body {
     outline: 0;
     border: 0;
 
-    &:hover {
+    &:hover,
+    &:active {
         background-color: #73d462;
+        outline: 0;
+        border: 0;
     }
 }
 
-ul{
+ul {
     margin-bottom: 0;
     padding: 0;
 

@@ -1,9 +1,10 @@
 footer {
-    padding: 160px 0 30px;
+    padding: 90px 0 30px;
     background-color: $main_color;
     color: $secondary_color;
 
     #footer-top {
+        font-size: 20px;
 
         .container {
             border-bottom: 1px solid $secondary_color;
@@ -16,10 +17,7 @@ footer {
 
         address {
             margin-top: 5px;
-        }
-
-        #footer-top-right {
-            font-size: 20px;
+            font-size: 15px;
         }
     }
 

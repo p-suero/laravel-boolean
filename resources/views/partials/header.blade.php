@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
-                <img src="{{asset("images/logo.png")}}" alt="">
+                <img src="{{asset("images/logo.png")}}" alt="Logo">
             </a>
             <button class="navbar-toggler">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                         </a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-primary text-uppercase">
+                <an class="btn btn-primary text-uppercase">
                     Candidati ora
                 </button>
             </div>

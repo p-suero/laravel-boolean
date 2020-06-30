@@ -2,15 +2,15 @@
     <div id="footer-top">
         <div class="container">
             <div class="row justify-content-between align-items-center no-gutters">
-                <div class="col-12 col-md-3 text-md-left text-center" id="footer-top-left">
-                    <img src="{{asset("images/logo-white.png")}}" alt="">
+                <div class="col-12 col-md-3 text-md-left text-center">
+                    <img src="{{asset("images/logo-white.png")}}" alt="Logo">
                     <address>
                         Sede operativa<br>
                         Via carducci 12 - 20123 Milano<br>
                         Tel: 02-40031288
                     </address>
                 </div>
-                <div class="col-12 col-md-3 text-md-right text-center" id="footer-top-right">
+                <div class="col-12 col-md-3 text-md-right text-center">
                     <ul>
                         <li>
                             <a href="#">
@@ -40,7 +40,7 @@
     <div id="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center" id="footer-bottom-icon">
+                <div class="col-12 text-center">
                     <a href="#">
                         <i class="fab fa-instagram"></i>
                     </a>
@@ -54,7 +54,7 @@
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>
-                <div class="col-12 text-center" id="footer-bottom-text">
+                <div class="col-12 text-center">
                     <p>
                         Boolean SRL - Piazzale Giovanni dalle Bande Nere, 9 - 20146, Milano - P.IVA: 10214930967
                     </p>
