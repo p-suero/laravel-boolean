@@ -57,15 +57,15 @@
                             23.000
                         </h3>
                         <p>
-                            La percentuale dei nostri studenti che ora lavora come web developer, oltre la metà a tempo indeterminato.
+                            Lo stipendio medio lordo di partenza degli studenti assunti dalle nostre aziende partner.
                         </p>
                     </div>
                     <div class="col-12 col-md-3 text-center">
                         <h3>
-                            98%
+                            #1
                         </h3>
                         <p>
-                            La percentuale dei nostri studenti che ora lavora come web developer, oltre la metà a tempo indeterminato.
+                            Siamo il primo istituto online in Italia per indice di gradimento e risultati conseguiti.
                         </p>
                     </div>
                 </div>
@@ -107,4 +107,4 @@
     </main>
 @endsection
 
-@section('page-title', "Boolean")
+@section('page-title', "Boolean Careers")

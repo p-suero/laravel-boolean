@@ -89,9 +89,84 @@
 
         li {
             list-style-type: $list_style_default;
+        }
+    }
+}
+
+#faq {
+    padding: $padding_secondary_page;
+    color: $main_color;
+
+    #faq-intro {
+        padding: 50px 80px;
+
+        h1 {
+            font-weight: 400;
+            font-size: 44px;
+        }
+
+        p {
+            font-size: 18px;
 
             a {
-                color: #007bff;
+                text-decoration: underline;
+            }
+        }
+
+
+    }
+
+    #faq-body {
+        .faq-box {
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            &:first-of-type {
+                background-color: $grey_color;
+            }
+
+            &:last-of-type {
+                background-color: $main_color;
+                color: $secondary_color;
+            }
+
+            h2 {
+                padding: $default_padding_faq;
+                font-weight: 400;
+                font-size: 32px;
+                margin-bottom: 43px;
+            }
+
+            .faq-item {
+                padding: $default_padding_faq;
+                margin: 30px 0;
+
+                .domanda {
+                    margin-bottom: 20px;
+
+                    h3 {
+                        font-weight: 400;
+                        font-size: 24px;
+                        margin-bottom: 0;
+                    }
+
+                    i {
+                        font-size: 24px;
+                        cursor: pointer;
+                    }
+                }
+
+                .risposta {
+                    display: none;
+                    &.active {
+                        display: block;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        margin-bottom: 16px;
+                    }
+                }
             }
         }
     }

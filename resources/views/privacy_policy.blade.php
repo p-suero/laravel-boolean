@@ -2,7 +2,7 @@
 
 @section('content')
     <main>
-        <section id="privacy_policy">
+        <div id="privacy_policy">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -154,7 +154,7 @@
                             <li>
                                 Chrome:
                                 <span>
-                                    <a href="#">
+                                    <a href="#" class="special-link">
                                         Link
                                     </a>
                                 </span>
@@ -162,7 +162,7 @@
                             <li>
                                 Firefox:
                                 <span>
-                                    <a href="#">
+                                    <a href="#" class="special-link">
                                         Link
                                     </a>
                                 </span>
@@ -170,7 +170,7 @@
                             <li>
                                 Internet Explorer:
                                 <span>
-                                    <a href="#">
+                                    <a href="#" class="special-link">
                                         Link
                                     </a>
                                 </span>
@@ -178,7 +178,7 @@
                             <li>
                                 Opera:
                                 <span>
-                                    <a href="#">
+                                    <a href="#" class="special-link">
                                         Link
                                     </a>
                                 </span>
@@ -186,7 +186,7 @@
                             <li>
                                 Safari:
                                 <span>
-                                    <a href="#">
+                                    <a href="#" class="special-link">
                                         Link
                                     </a>
                                 </span>
@@ -278,7 +278,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 @endsection
 

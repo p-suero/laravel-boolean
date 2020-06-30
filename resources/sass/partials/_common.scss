@@ -34,3 +34,11 @@ a {
         color: inherit;
     }
 }
+
+.special-link {
+    color: #007bff;
+
+    &:hover {
+        color: #0056b3;
+    }
+}

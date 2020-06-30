@@ -18,7 +18,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="{{route("faq")}}">
                                 Domande frequenti
                             </a>
                         </li>

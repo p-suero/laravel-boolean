@@ -16107,6 +16107,13 @@ a:hover {
   color: inherit;
 }
 
+.special-link {
+  color: #007bff;
+}
+.special-link:hover {
+  color: #0056b3;
+}
+
 header {
   width: 100%;
   background-color: white;
@@ -16223,8 +16230,66 @@ header .navbar-light .navbar-nav li:hover {
 #privacy_policy ul li {
   list-style-type: disc;
 }
-#privacy_policy ul li a {
-  color: #007bff;
+
+#faq {
+  padding: 90px 0 40px;
+  color: #1b3c59;
+}
+#faq #faq-intro {
+  padding: 50px 80px;
+}
+#faq #faq-intro h1 {
+  font-weight: 400;
+  font-size: 44px;
+}
+#faq #faq-intro p {
+  font-size: 18px;
+}
+#faq #faq-intro p a {
+  text-decoration: underline;
+}
+#faq #faq-body .faq-box {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#faq #faq-body .faq-box:first-of-type {
+  background-color: #e8ebf1;
+}
+#faq #faq-body .faq-box:last-of-type {
+  background-color: #1b3c59;
+  color: white;
+}
+#faq #faq-body .faq-box h2 {
+  padding: 0 80px;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 43px;
+}
+#faq #faq-body .faq-box .faq-item {
+  padding: 0 80px;
+  margin: 30px 0;
+}
+#faq #faq-body .faq-box .faq-item .domanda {
+  margin-bottom: 20px;
+}
+#faq #faq-body .faq-box .faq-item .domanda h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+#faq #faq-body .faq-box .faq-item .domanda i {
+  font-size: 24px;
+  cursor: pointer;
+}
+#faq #faq-body .faq-box .faq-item .risposta {
+  display: none;
+}
+#faq #faq-body .faq-box .faq-item .risposta.active {
+  display: block;
+}
+#faq #faq-body .faq-box .faq-item .risposta p {
+  font-size: 20px;
+  margin-bottom: 16px;
 }
 
 footer {
