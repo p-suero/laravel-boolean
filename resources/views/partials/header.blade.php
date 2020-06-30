@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav">
                     <li class="nav-item text-uppercase">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="{{route("homepage")}}">
                             Home
                         </a>
                     </li>

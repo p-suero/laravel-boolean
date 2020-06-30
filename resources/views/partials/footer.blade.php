@@ -23,7 +23,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="{{route("p_policy")}}">
                                 Privacy policy
                             </a>
                         </li>
