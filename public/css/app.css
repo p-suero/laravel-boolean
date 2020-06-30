@@ -16142,7 +16142,7 @@ header .navbar-light .navbar-nav li {
   font-size: 14px;
   border: 2px solid transparent;
 }
-header .navbar-light .navbar-nav li:hover, header .navbar-light .navbar-nav li:active {
+header .navbar-light .navbar-nav li:hover {
   border-bottom: 2px solid #61ce4e;
 }
 

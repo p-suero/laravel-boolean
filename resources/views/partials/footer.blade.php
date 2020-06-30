@@ -41,16 +41,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="#">
+                    <a href="{{url("https://www.instagram.com/boolean.careers/")}}">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="{{url("https://www.facebook.com/boolean.careers")}}">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#">
+                    <a href="{{url("https://www.linkedin.com/checkpoint/challengesV2/AQGc_OzHptgKgAAAAXMGQhPR6QArKhciAU7p0RlYpuDu6IP33LsBMPd0R-QcmvuRISuHEpEEBgm5L-wbTUZTVzqiCj-s9_Mgvw")}}">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="#">
+                    <a href="{{url("https://www.youtube.com/channel/UCN0mktfmWySUg3OmvHKrdcQ")}}">
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>

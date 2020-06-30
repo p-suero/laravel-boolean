@@ -1,7 +1,7 @@
 <header class="position-fixed">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{route("homepage")}}">
                 <img src="{{asset("images/logo.png")}}" alt="Logo">
             </a>
             <button class="navbar-toggler">
