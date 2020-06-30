@@ -70,7 +70,7 @@
         </section>
         <section id="partner">
             <div class="container">
-                <h4>
+                <h4 class="text-center text-md-left">
                     I nostri studenti sono stati assunti da:
                 </h4>
                 <div class="row text-center text-md-left line-img">
