@@ -37,6 +37,10 @@
     h3 {
         font-size: 50px;
         font-weight: 400;
+
+        span {
+            font-size: 33px;
+        }
     }
 
     p {
@@ -59,5 +63,36 @@
     .line-img {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+}
+
+#privacy_policy {
+    color: $main_color;
+    padding: 90px 0 40px;
+
+    h1 {
+        font-weight: 500;
+        font-size: 32px;
+        margin: 10px 0;
+    }
+
+    .section {
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    ul {
+        padding: 0  0 20px 20px;
+
+        li {
+            list-style-type: disc;
+
+            a {
+                color: #007bff;
+            }
+        }
     }
 }

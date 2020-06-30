@@ -51,7 +51,10 @@
                     </div>
                     <div class="col-12 col-md-3 text-center">
                         <h3>
-                            23000€
+                            <span>
+                                €
+                            </span>
+                            23.000
                         </h3>
                         <p>
                             La percentuale dei nostri studenti che ora lavora come web developer, oltre la metà a tempo indeterminato.
@@ -70,9 +73,13 @@
         </section>
         <section id="partner">
             <div class="container">
-                <h4 class="text-center text-md-left">
-                    I nostri studenti sono stati assunti da:
-                </h4>
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-center text-md-left">
+                            I nostri studenti sono stati assunti da:
+                        </h4>
+                    </div>
+                </div>
                 <div class="row text-center text-md-left line-img">
                     <div class="col-12 col-md-4">
                         <img src="{{asset("images/partner_facile.png")}}" alt="Facile.it">

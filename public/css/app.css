@@ -16181,6 +16181,9 @@ header .navbar-light .navbar-nav li:hover, header .navbar-light .navbar-nav li:a
   font-size: 50px;
   font-weight: 400;
 }
+#results h3 span {
+  font-size: 33px;
+}
 #results p {
   font-size: 19px;
   font-weight: 300;
@@ -16197,6 +16200,31 @@ header .navbar-light .navbar-nav li:hover, header .navbar-light .navbar-nav li:a
 #partner .line-img {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#privacy_policy {
+  color: #1b3c59;
+  padding: 90px 0 40px;
+}
+#privacy_policy h1 {
+  font-weight: 500;
+  font-size: 32px;
+  margin: 10px 0;
+}
+#privacy_policy .section {
+  margin-top: 40px;
+}
+#privacy_policy h2 {
+  font-size: 20px;
+}
+#privacy_policy ul {
+  padding: 0 0 20px 20px;
+}
+#privacy_policy ul li {
+  list-style-type: disc;
+}
+#privacy_policy ul li a {
+  color: #007bff;
 }
 
 footer {
