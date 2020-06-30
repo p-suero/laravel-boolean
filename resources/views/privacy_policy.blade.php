@@ -11,7 +11,7 @@
                         </h1>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <p>
                             Ai sensi dell’art. 13 del Regolamento UE 2016/679 (di seguito “GDPR”), Boolean S.R.L., con sede legale in Piazzale Giovanni dalle Band Nere 9, 20146 Milano rappresentata da Fabio Forghieri e Roberto Marazzini n qualità di
@@ -22,7 +22,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Natura dei dati trattati
@@ -39,7 +39,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Finalità del trattamento
@@ -72,7 +72,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Base giuridica e consenso
@@ -99,7 +99,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Modalità di trattamento dei dati
@@ -110,7 +110,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Diffusione, Comunicazione dei dati e destinatari
@@ -132,7 +132,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Link ad altri Siti Web
@@ -142,7 +142,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Definizioni e riferimenti legali
@@ -197,7 +197,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Trasferimento dei dati personali extra UE
@@ -224,7 +224,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Conservazione dei dati
@@ -234,7 +234,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <h2>
                             Diritti dell’interessato
@@ -270,7 +270,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row section">
+                <div class="row policy-item">
                     <div class="col-12">
                         <p>
                             Per esercitare i Suoi diritti appena elencati, potrà inoltrare richiesta all’indirizzo e-mail ciao@boolean.careers
