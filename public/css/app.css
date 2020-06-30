@@ -16073,3 +16073,104 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.btn-primary {
+  background-color: #61ce4e;
+  margin: 0 0 0 33px;
+  padding: 8px 28px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+}
+.btn-primary:hover {
+  background-color: #73d462;
+}
+
+ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+}
+header .navbar-light {
+  height: 90px;
+  color: #1b3c59;
+  background-color: inherit;
+}
+header .navbar-light.navbar {
+  padding: 10px 0;
+}
+header .navbar-light .navbar-brand {
+  height: 100%;
+}
+header .navbar-light .navbar-brand img {
+  height: 100%;
+}
+header .navbar-light button.navbar-toggler {
+  border: 0;
+  outline-color: transparent;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: #1b3c59;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: inherit;
+}
+header .navbar-light .navbar-nav li {
+  margin: 0 5px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 2px solid transparent;
+}
+header .navbar-light .navbar-nav li:hover, header .navbar-light .navbar-nav li:active {
+  border-bottom: 2px solid #61ce4e;
+}
+
+footer {
+  padding: 160px 0 30px;
+  background-color: #1b3c59;
+  color: white;
+}
+footer #footer-top .container {
+  border-bottom: 1px solid white;
+  padding: 0;
+}
+footer #footer-top img {
+  width: 200px;
+}
+footer #footer-top address {
+  margin-top: 5px;
+}
+footer #footer-top #footer-top-right {
+  font-size: 20px;
+}
+footer #footer-bottom a {
+  display: inline-block;
+}
+footer #footer-bottom a i {
+  font-size: 35px;
+  margin: 30px 20px;
+}
+footer #footer-bottom a i:hover {
+  color: #61ce4e;
+}
+footer #footer-bottom p {
+  font-size: 15px;
+}

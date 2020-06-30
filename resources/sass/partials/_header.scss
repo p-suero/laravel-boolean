@@ -1,0 +1,49 @@
+header {
+    width: 100%;
+    background-color: $secondary_color;
+
+    .navbar-light {
+        height: 90px;
+        color: $main_color;
+        background-color: inherit;
+
+        &.navbar {
+            padding: 10px 0;
+        }
+
+        .navbar-brand {
+            height: 100%;
+
+            img {
+                height: 100%;
+            }
+        }
+
+        button.navbar-toggler {
+            border: 0;
+            outline-color: transparent;
+        }
+
+        .navbar-nav {
+            .nav-link {
+                color: $main_color;
+
+                &:hover {
+                    color: inherit;
+                }
+            }
+
+            li {
+                margin: 0 5px;
+                padding: 0 10px;
+                font-size: 14px;
+                border: 2px solid transparent;
+
+                &:hover,
+                &:active {
+                    border-bottom: 2px solid $details_color;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+footer {
+    padding: 160px 0 30px;
+    background-color: $main_color;
+    color: $secondary_color;
+
+    #footer-top {
+
+        .container {
+            border-bottom: 1px solid $secondary_color;
+            padding: 0;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        address {
+            margin-top: 5px;
+        }
+
+        #footer-top-right {
+            font-size: 20px;
+        }
+    }
+
+    #footer-bottom {
+        a {
+            display: inline-block;
+
+            i {
+                font-size: 35px;
+                margin: 30px 20px;
+
+                &:hover {
+                    color: $details_color;
+                }
+            }
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}

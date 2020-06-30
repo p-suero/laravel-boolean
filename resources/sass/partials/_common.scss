@@ -1,0 +1,33 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn-primary {
+    background-color: $details_color;
+    margin: 0 0 0 33px;
+    padding: 8px 28px;
+    @include bd_radius(5px);
+    outline: 0;
+    border: 0;
+
+    &:hover {
+        background-color: #73d462;
+    }
+}
+
+ul{
+    margin-bottom: 0;
+    padding: 0;
+
+    li {
+       list-style-type: none;
+    }
+}
+
+a {
+    color: inherit;
+
+    &:hover {
+        color: inherit;
+    }
+}
