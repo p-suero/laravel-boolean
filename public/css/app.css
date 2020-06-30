@@ -16108,6 +16108,7 @@ a:hover {
 header {
   width: 100%;
   background-color: white;
+  z-index: 2;
 }
 header .navbar-light {
   height: 90px;
