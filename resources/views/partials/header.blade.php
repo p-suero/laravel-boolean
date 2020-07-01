@@ -9,27 +9,27 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav align-items-center">
-                    <li class="nav-item text-uppercase">
-                        <a class="nav-link" href="{{route("homepage")}}">
+                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'homepage' ? 'active' : '' }}">
+                        <a class="nav-link" href="{{route("homepage")}} ">
                             Home
                         </a>
                     </li>
-                    <li class="nav-item text-uppercase">
+                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'corso' ? 'active' : '' }}">
                         <a class="nav-link" href="#">
                             Corso
                         </a>
                     </li>
-                    <li class="nav-item text-uppercase">
+                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'dopo_il_corso' ? 'active' : '' }}">
                         <a class="nav-link" href="#">
                             Dopo il corso
                         </a>
                     </li>
-                    <li class="nav-item text-uppercase">
+                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'lezione_gratuita' ? 'active' : '' }}">
                         <a class="nav-link" href="#">
                             Lezione gratuita
                         </a>
                     </li>
-                    <li class="nav-item text-uppercase">
+                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'assumi_gli_studenti' ? 'active' : '' }}">
                         <a class="nav-link" href="#">
                             Assumi i nostri studenti
                         </a>

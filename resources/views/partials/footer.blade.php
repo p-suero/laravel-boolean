@@ -22,7 +22,7 @@
                                 Domande frequenti
                             </a>
                         </li>
-                        <li>
+                        <li class="">
                             <a href="{{route("p_policy")}}">
                                 Privacy policy
                             </a>
