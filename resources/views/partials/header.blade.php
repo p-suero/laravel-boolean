@@ -14,22 +14,22 @@
                             Home
                         </a>
                     </li>
-                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'corso' ? 'active' : '' }}">
+                    <li class="nav-item text-uppercase">
                         <a class="nav-link" href="#">
                             Corso
                         </a>
                     </li>
-                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'dopo_il_corso' ? 'active' : '' }}">
+                    <li class="nav-item text-uppercase">
                         <a class="nav-link" href="#">
                             Dopo il corso
                         </a>
                     </li>
-                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'lezione_gratuita' ? 'active' : '' }}">
+                    <li class="nav-item text-uppercase">
                         <a class="nav-link" href="#">
                             Lezione gratuita
                         </a>
                     </li>
-                    <li class="nav-item text-uppercase {{ Request::route()->getName() == 'assumi_gli_studenti' ? 'active' : '' }}">
+                    <li class="nav-item text-uppercase">
                         <a class="nav-link" href="#">
                             Assumi i nostri studenti
                         </a>

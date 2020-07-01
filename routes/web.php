@@ -22,5 +22,7 @@ Route::get('/privacy_policy', function () {
 })->name("p_policy");
 
 Route::get('/faq', function () {
-    return view('faq');
+    $faqs_prima = config("faqs.faqs_prima");
+    $faqs_dopo = config("faqs.faqs_dopo");
+    return view('faq')->with(["faq_prima" => $faqs_prima,"faq_dopo" => $faqs_dopo]);
 })->name("faq");
