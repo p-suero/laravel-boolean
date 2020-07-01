@@ -95,6 +95,7 @@
 
 #faq {
     padding: $padding_secondary_page;
+    padding-bottom: 0;
     color: $main_color;
 
     #faq-intro {
@@ -116,56 +117,56 @@
 
     }
 
-    #faq-body {
-        .faq-box {
-            padding-top: 50px;
-            padding-bottom: 50px;
+    .faq-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
 
-            &:first-of-type {
-                background-color: $grey_color;
-            }
+        &:first-of-type {
+            background-color: $grey_color;
+        }
 
-            &:last-of-type {
-                background-color: $main_color;
-                color: $secondary_color;
-            }
+        &:last-of-type {
+            background-color: $main_color;
+            color: $secondary_color;
+        }
 
-            h2 {
-                padding: $default_padding_faq;
-                font-weight: 400;
-                font-size: 32px;
-                margin-bottom: 43px;
-            }
+        h2 {
+            padding: $default_padding_faq;
+            font-weight: 400;
+            font-size: 32px;
+            margin-bottom: 43px;
+        }
 
-            .faq-item {
-                padding: $default_padding_faq;
-                margin: 30px 0;
+        .faq-item {
+            padding: $default_padding_faq;
+            margin-top: 30px;
 
-                .domanda {
-                    margin-bottom: 20px;
+            .domanda {
+                padding-bottom: 20px;
 
-                    h3 {
-                        font-weight: 400;
-                        font-size: 24px;
-                        margin-bottom: 0;
-                    }
-
-                    i {
-                        font-size: 24px;
-                        cursor: pointer;
-                    }
+                h3 {
+                    font-weight: 400;
+                    font-size: 24px;
+                    margin-bottom: 0;
                 }
 
-                .risposta {
-                    display: none;
-                    &.active {
-                        display: block;
-                    }
+                i {
+                    font-size: 24px;
+                    cursor: pointer;
+                }
+            }
 
-                    p {
-                        font-size: 20px;
-                        margin-bottom: 16px;
-                    }
+            .risposta {
+                display: none;
+
+                &.active {
+                    display: block;
+                }
+
+                p {
+                    font-size: 18px;
+                    padding-bottom: 16px;
+                    margin: 0;
                 }
             }
         }

@@ -39,4 +39,21 @@
             padding-bottom: 30px;
         }
     }
+
+    #faq {
+        #faq-intro {
+            padding: 0;
+
+            h1 {
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .faq-box {
+            h2, .faq-item {
+                padding: 0;
+            }
+        }
+    }
 }

@@ -24,10 +24,10 @@ footer {
     #footer-bottom {
         a {
             display: inline-block;
+            margin: 30px 20px;
 
             i {
                 font-size: 35px;
-                margin: 30px 20px;
 
                 &:hover {
                     color: $details_color;

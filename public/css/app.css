@@ -16238,6 +16238,7 @@ header .navbar-light .navbar-nav li:hover {
 
 #faq {
   padding: 90px 0 40px;
+  padding-bottom: 0;
   color: #1b3c59;
 }
 #faq #faq-intro {
@@ -16253,48 +16254,49 @@ header .navbar-light .navbar-nav li:hover {
 #faq #faq-intro p a {
   text-decoration: underline;
 }
-#faq #faq-body .faq-box {
+#faq .faq-box {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-#faq #faq-body .faq-box:first-of-type {
+#faq .faq-box:first-of-type {
   background-color: #e8ebf1;
 }
-#faq #faq-body .faq-box:last-of-type {
+#faq .faq-box:last-of-type {
   background-color: #1b3c59;
   color: white;
 }
-#faq #faq-body .faq-box h2 {
+#faq .faq-box h2 {
   padding: 0 80px;
   font-weight: 400;
   font-size: 32px;
   margin-bottom: 43px;
 }
-#faq #faq-body .faq-box .faq-item {
+#faq .faq-box .faq-item {
   padding: 0 80px;
-  margin: 30px 0;
+  margin-top: 30px;
 }
-#faq #faq-body .faq-box .faq-item .domanda {
-  margin-bottom: 20px;
+#faq .faq-box .faq-item .domanda {
+  padding-bottom: 20px;
 }
-#faq #faq-body .faq-box .faq-item .domanda h3 {
+#faq .faq-box .faq-item .domanda h3 {
   font-weight: 400;
   font-size: 24px;
   margin-bottom: 0;
 }
-#faq #faq-body .faq-box .faq-item .domanda i {
+#faq .faq-box .faq-item .domanda i {
   font-size: 24px;
   cursor: pointer;
 }
-#faq #faq-body .faq-box .faq-item .risposta {
+#faq .faq-box .faq-item .risposta {
   display: none;
 }
-#faq #faq-body .faq-box .faq-item .risposta.active {
+#faq .faq-box .faq-item .risposta.active {
   display: block;
 }
-#faq #faq-body .faq-box .faq-item .risposta p {
-  font-size: 20px;
-  margin-bottom: 16px;
+#faq .faq-box .faq-item .risposta p {
+  font-size: 18px;
+  padding-bottom: 16px;
+  margin: 0;
 }
 
 footer {
@@ -16318,10 +16320,10 @@ footer #footer-top address {
 }
 footer #footer-bottom a {
   display: inline-block;
+  margin: 30px 20px;
 }
 footer #footer-bottom a i {
   font-size: 35px;
-  margin: 30px 20px;
 }
 footer #footer-bottom a i:hover {
   color: #61ce4e;
@@ -16361,5 +16363,16 @@ footer #footer-bottom p {
 
   footer #footer-top .container {
     padding-bottom: 30px;
+  }
+
+  #faq #faq-intro {
+    padding: 0;
+  }
+  #faq #faq-intro h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  #faq .faq-box h2, #faq .faq-box .faq-item {
+    padding: 0;
   }
 }
