@@ -16086,10 +16086,15 @@ body {
   outline: 0;
   border: 0;
 }
-.btn-primary:hover, .btn-primary:active {
-  background-color: #73d462;
-  outline: 0;
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus {
+  background-color: #61ce4e;
   border: 0;
+  box-shadow: none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #73d462;
+  border: 0;
+  box-shadow: none;
 }
 
 ul {
@@ -16326,6 +16331,14 @@ footer #footer-bottom p {
 }
 
 @media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: white;
+    padding-bottom: 20px;
+  }
+  .navbar-collapse button {
+    margin: 10px 0 0 0;
+  }
+
   #jumbotron h1 {
     font-size: 40px;
   }
